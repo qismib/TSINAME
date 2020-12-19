@@ -10,11 +10,6 @@ from math import sqrt, pi
 import numpy as np
 import matplotlib.pyplot as plt
 from random import *
-		
-# Loading your IBM Q account(s)
-
-# provider = IBMQ.save_account('197436563b92d8c065b01187e9a6aa9c481fff72dbd48ec166ace8908161180a29c595cef9cc8393467958b0158bc3bc61482c1a855bdadddfe18d805439fb41')
-# provider = IBMQ.load_account() 
 
 
 # DEFINITIONS
