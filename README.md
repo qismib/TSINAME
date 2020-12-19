@@ -8,7 +8,7 @@ The program runs a simulation of the protocol. In runtime, you can choose 3 opti
 2. Simulation with an attack which is based on direct measurement of the transmitted qubits;
 3. Simulation with an attack based on the Entanglement between qubit in the |0> state and the trasmitted qubits.
 
-Finally it creates a data file, which is the input of the program "bb84_data_analysis.py"
+Finally it creates a data file, which is the input of the program "bb84_data_analysis.py".
 
 B) Data analysis - program "bb84_data_analysis.py"
 -------------------------------------------------
