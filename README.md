@@ -1,7 +1,7 @@
 # TSINAME
 BB84 - Three Scenarios Implementation - No Attack, Measurement-based attack, Entanglement-based attack
 
-A) Simulation - "program bb84_qkd.py"
+A) Simulation - program "bb84_qkd.py"
 ------------------------------------
 The program runs a simulation of the protocol. In runtime, you can choose 3 options:
 1. Simulation without hacker's attack;
