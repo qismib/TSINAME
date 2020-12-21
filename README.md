@@ -13,3 +13,7 @@ Finally it creates a data file, which is the input of the program "bb84_data_ana
 B) Data analysis - program "bb84_data_analysis.py"
 -------------------------------------------------
 The program reads the datas contained in the output file of the "bb84_qkd" program, and performs the data analysis.
+
+C) Slides
+---------
+For further details on the protocol, the programs or the data analysis, here are the slides!
