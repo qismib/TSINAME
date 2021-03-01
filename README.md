@@ -1,9 +1,9 @@
-#TSINAME
+# TSINAME
 
 ### BB84 - Three Scenarios Implementation - No Attack, Measurement-based attack, Entanglement-based attack
 
-Overview
---------
+## Overview
+
 
 *Quantum cryptography* falls into the scope of computer data security, and this thesis project is
 focused on it. In particular, the **BB84 protocol** is studied in the thesis. Proposed by **C. H. Bennett**
@@ -50,7 +50,7 @@ then the protocol must be interrupted.
 * Eve: she is the **hacker**. She wants to stole the cryptograpic key shared by Alice and Bob.
 
 
-##Project
+## Project
 
 In this thesis, the BB84 protocol has been implemented by writing a Python code based on *Qiskit*.
 Qiskit is an open-source framework which allows you to interface with quantum computers provided by IBM.
