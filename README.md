@@ -42,6 +42,33 @@ a cryptographic key, shared only by the sender and by the recipient. In case of 
 so **the presence of different results would signify that the key has been intercepted by a hacker**, and
 then the protocol must be interrupted.
 
+The thesis discusses the theory behind the protocol and, basing on simple considerations about the
+probabilities which came into play, the theoretical results expected from the a posteriori data analysis
+are computed. The intervention of a possibile hacker is introduced throughout the implementation of
+**two possible types of attack**: one based on a **direct measurement of the qubits**, and the other based
+on the **creation of entangled states** with the transmitted qubits. Thanks to the analysis of the data
+which have been collected by the recipient, it is proven that neither of these two attacks can succeed,
+and that the protocol is **completely safe from any intrusion attempts** performed by an external agent
+of this type. Each hacking attempt, indeed, causes the change of the state of some of the transmitted
+qubits; as an observable consequence, after the data analysis, the **percentage of different results** is
+equal to the **25% of the correlated bits**.
+The protocol is implemented by writing a Python program which exploits *Qiskit*, an open-source
+framework developed by **IBM**, which allows to write code for Quantum Computing.
+Then a **simulation** of the code is carried out, in order to prove the correct functioning and to verify
+the accuracy of the results expected from the data analysis. Finally, the **experiment on real quantum**
+**computers** is executed. **Preliminary tests** are launched to determine a good choice of the devices which
+have been made available by IBM, and to choose the optimal configuration of the quantum circuit
+related to each execution. These tests shows the trend of the error on the measurements, varying the
+number of qubits in parallel in each circuit, in relation to the different considered devices. Once the
+device’s choice has been made, the experiment and the data analysis of the results are performed,
+taking into account the noise introduced by the device. That noise is identified with the percentage
+of different results in case of hacker’s absence (namely, in the case in which, if the device was ideal,
+this percentage would be 0%).
+
+As expected, *in case of hacker’s attack there is an increase of the different results’ percentage, which*
+*exceeds the noise threshold in hacker’s absence*; in particular, the percentage of correlated bits which
+are different is approximately equal to 25% plus the percentage associated with the noise.
+
 ## Characters
 
 
