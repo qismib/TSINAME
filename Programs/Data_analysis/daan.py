@@ -1,4 +1,4 @@
-# Data analysis associated to the program bb84_qkd.py (daan = DAta ANalysis)
+# Data analysis associated to the program bb84_qkd_realdevice.py (daan = DAta ANalysis)
 
 # Importing standard Qiskit libraries and configuring account
 from qiskit import QuantumCircuit, execute, Aer, IBMQ
