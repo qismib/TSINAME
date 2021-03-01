@@ -1,5 +1,4 @@
-                                                TSINAME
-                                                =======
+#TSINAME
 
 ### BB84 - Three Scenarios Implementation - No Attack, Measurement-based attack, Entanglement-based attack
 
@@ -43,19 +42,19 @@ a cryptographic key, shared only by the sender and by the recipient. In case of 
 so **the presence of different results would signify that the key has been intercepted by a hacker**, and
 then the protocol must be interrupted.
 
-Characters
-----------
+## Characters
+
 
 * Alice: she is the **sender**. She wants to share with Bob a cryptographic key.
 * Bob: he is the **recipient**. He receives the qubits sent by Alice.
 * Eve: she is the **hacker**. She wants to stole the cryptograpic key shared by Alice and Bob.
 
 
-Project
--------
-# In this thesis, the BB84 protocol has been implemented by writing a Python code based on *Qiskit*.
-# Qiskit is an open-source framework which allows you to interface with quantum computers provided by IBM.
-# *IBM Quantum Experience* is a cloud platform by which you can interact with IBM's quantum computers.
+##Project
+
+In this thesis, the BB84 protocol has been implemented by writing a Python code based on *Qiskit*.
+Qiskit is an open-source framework which allows you to interface with quantum computers provided by IBM.
+*IBM Quantum Experience* is a cloud platform by which you can interact with IBM's quantum computers.
 
 <p>Link to *IBM Quantum Experience*: <a href="https://www.google.com/search?channel=fs&client=ubuntu&q=ibm+quantum+experience"></a></p>
 <p>Link to *Qiskit Textbook*: <a href="https://qiskit.org/textbook/preface.html"></a></p>
@@ -67,11 +66,11 @@ See:
 * The slides (Italian / English): Docs/Slides
 * The schemes (Italian): Docs/Schemi
 
-Programs
---------
+## Programs
+
 Notice: you may adjust some commands in the code, in order to obtain the correct graphics (for example) or to perform the right experiment.
 
-# a) Simulation: Programs/Simulation/runner.py
+### a) Simulation: Programs/Simulation/runner.py
 
 The program runs a simulation of the protocol. In runtime, you can choose 3 options:
 1. Simulation without hacker's attack;
@@ -80,18 +79,18 @@ The program runs a simulation of the protocol. In runtime, you can choose 3 opti
 
 Finally a data analysis is automatically performed. You will obtain some graphics related to the analysis.
 
-# b) Noise testing programs: Programs/Noise_tests
+### b) Noise testing programs: Programs/Noise_tests
 
 * noise_testing_santiago.py --> In order to evaluate if the noise depends on the number of qubits in parallel.
 * noise_testing_ent_q0q1.py --> In order to evaluate the noise with respect to the couples of entangled qubits.
 
-# c) Plots of the noise tests: Programs/Plots
+### c) Plots of the noise tests: Programs/Plots
 
 There are two programs, one for the tests without Entanglement (noise_plots.py), 
 the other for the tests with Entanglement (noise_plots_entanglement.py).
 They build up some histograms with values which you have to insert.
 
-# d) Experiment on quantum computer: Programs/Experiment/bb84_qkd_realdevice.py
+### d) Experiment on quantum computer: Programs/Experiment/bb84_qkd_realdevice.py
 
 With this program, you can run the BB84 protocol on a IBM quantum computer.
 
@@ -99,7 +98,7 @@ Make sure:
 * to set up the correct backend name (for example, *ibmq_santiago*)
 * to uncomment/comment out the correct part of the code in order to perform the experiment (for example, *Scenario 1-2* or *Scenario 3*: one of them must always be commented out, and the other must always be uncommented).
 
-# e) Data analysis related to the experiment - Programs/Data_analysis/daan.py
+### e) Data analysis related to the experiment - Programs/Data_analysis/daan.py
 
 You have to set the input name of the data file. Then the program will build up the graphics of the experiment.
 
