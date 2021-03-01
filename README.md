@@ -9,6 +9,7 @@
 focused on it. In particular, the **BB84 protocol** is studied in the thesis. Proposed by **C. H. Bennett**
 and **G. Brassard** in **1984**, it is the *first protocol devised to allow the exchange of cryptographic keys*
 *through the use of Quantum Computing*.
+
 This protocol consists of the **transmission of qubits** which have been initially prepared in four
 possible different physical states, related to the vector states which are described by two bases which
 are orthonormal to each other. For example, considering a qubit obtained by the *polarization of a*
