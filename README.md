@@ -56,8 +56,9 @@ In this thesis, the BB84 protocol has been implemented by writing a Python code 
 Qiskit is an open-source framework which allows you to interface with quantum computers provided by IBM.
 *IBM Quantum Experience* is a cloud platform by which you can interact with IBM's quantum computers.
 
-<p>Link to *IBM Quantum Experience*: <a href="https://www.google.com/search?channel=fs&client=ubuntu&q=ibm+quantum+experience"></a></p>
-<p>Link to *Qiskit Textbook*: <a href="https://qiskit.org/textbook/preface.html"></a></p>
+[IBM Quantum Experience](https://www.google.com/search?channel=fs&client=ubuntu&q=ibm+quantum+experience)
+[Qiskit Textbook](https://qiskit.org/textbook/preface.html)
+
 
 Full description of the BB84 protocol
 -------------------------------------
