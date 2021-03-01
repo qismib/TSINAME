@@ -104,3 +104,19 @@ Make sure:
 
 You have to set the input name of the data file. Then the program will build up the graphics of the experiment.
 
+## Graphics
+
+In the directory Graphics/ you can find the main plots of the thesis.
+
+Usually:
+1. **Figure 1** shows the percentage of the same basis or different basis choice;
+2. **Figure 2** shows the percentage of identical or different correlated bits;
+3. **Figure 3** shows the percentage of identical or different correlated bits, distinguishing between the values of the results and referring to the **{|0>, |1>} basis** choice;
+4. **Figure 4** is the same of Figure 3, but referring to the **{|+>, |->} basis** choice.
+
+However:
+
+* **Simulation**: sim_s1_fig1.pdf means *graphic of the simulation, Scenario 1, Figure 1*.
+* **Noise**: noise_test_0.pdf and noise_test_1.pdf are the plots of the noise in case of Scenario 1-2, the other are the plots in case of Scenario 3.
+* **Experiment**: exp_s1_santiago_fig1.pdf means *graphic of the experiment, Scenario 1, used device (backend name), Figure 1*.
+* **Definitive_slide_experiment_graphics**: these are the graphics inserted in the slides.
